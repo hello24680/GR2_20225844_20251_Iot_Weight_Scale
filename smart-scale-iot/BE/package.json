@@ -1,0 +1,31 @@
+{
+  "name": "smart-scale-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Smart Scale IoT system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node prisma/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "esp32",
+    "smart-scale"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mqtt": "^5.14.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3",
+    "prisma": "^5.22.0"
+  }
+}
