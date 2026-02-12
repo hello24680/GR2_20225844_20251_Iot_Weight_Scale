@@ -598,7 +598,7 @@ model User {
 - MQTT Broker → Backend: ~10-30ms (local network)
 - Backend → Frontend: ~10-20ms (WebSocket)
 
-**Scenario: Người dùng muốn cân một vật và gửi lệnh từ Frontend****
+**Scenario: Người dùng muốn cân một vật và gửi lệnh từ Frontend**
 <div align="center">
 <img src="docs\scale_sq_diagram.png" width="700"/>
 </div>  
