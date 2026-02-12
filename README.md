@@ -22,7 +22,7 @@ Hệ thống cân thông minh IoT là một giải pháp hoàn chỉnh kết h�
 
 - Hình ảnh tổng quan:  
 <div align="center">
-<img src="docs\Tong_quan.png" width="300"/>
+<img src="docs\Tong_quan.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 1: Giao diện tổng quan </em></p>
 
@@ -53,7 +53,7 @@ Hệ thống được chia thành 3 thành phần chính:
 
 - Sơ đồ kiến trúc tổng quan:
 <div align="center">
-<img src="docs\luong_hoat_dong.png" width="300"/>
+<img src="docs\luong_hoat_dong.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 2: Luồng hoạt động tổng quan </em></p>
 
@@ -80,7 +80,7 @@ Hệ thống phần cứng được xây dựng xung quanh vi điều khiển ES
 
 - Hình ảnh thực tế:
 <div align="center">
-<img src="docs\phan_cung_thuc_te.jpg" width="300"/>
+<img src="docs\phan_cung_thuc_te.jpg" width="700"/>
 </div>  
 <p align="center"><em>Hình 3: phần cứng thực tế </em></p>
 
@@ -182,7 +182,7 @@ FE/
 
 - Mô phỏng kết nối:
 <div align="center">
-<img src="docs\mo_phong_ket_noi.png" width="300"/>
+<img src="docs\mo_phong_ket_noi.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 4: Mô phỏng kết nối phần cứng</em></p>
 
@@ -246,7 +246,7 @@ Chỉnh sửa [esp32/Smart_scale_esp32/include/constants.h](esp32/Smart_scale_es
 
 - Screenshot giao diện PlatformIO khi build thành công:
 <div align="center">
-<img src="docs\build_thanh_cong.png" width="300"/>
+<img src="docs\build_thanh_cong.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 5: Build thành công</em></p>
 
@@ -306,7 +306,7 @@ curl http://localhost:3000/
 
 -  Screenshot terminal khi server start thành công:
 <div align="center">
-<img src="docs\BE_build.png" width="300"/>
+<img src="docs\BE_build.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 6: Build BE</em></p>
 
@@ -350,7 +350,7 @@ npm run preview  # Preview production build
 
 -  Screenshot terminal khi FE start thành công:
 <div align="center">
-<img src="docs\FE_build.png" width="300"/>
+<img src="docs\FE_build.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 7: Build FE</em></p>
 
@@ -394,7 +394,7 @@ npm run preview  # Preview production build
   - Thống kê lịch sử cân, trạng thái thiết bị cân
 
 <div align="center">
-<img src="docs\DashBoard.png" width="300"/>
+<img src="docs\DashBoard.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 8: Dashboard</em></p>
 
@@ -404,7 +404,7 @@ npm run preview  # Preview production build
   - Xóa bản ghi nếu cần
 
 <div align="center">
-<img src="docs\HistoryLog.png" width="300"/>
+<img src="docs\HistoryLog.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 9: History log</em></p>
 
@@ -414,7 +414,7 @@ npm run preview  # Preview production build
   - Bật tắt thông báo email
 
 <div align="center">
-<img src="docs\UserProfile.png" width="300"/>
+<img src="docs\UserProfile.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 10: User profile</em></p>
 
@@ -425,12 +425,12 @@ npm run preview  # Preview production build
   - Điều chỉnh wifi kết nối
 
 <div align="center">
-<img src="docs\Setting.png" width="300"/>
+<img src="docs\Setting.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 11: Device Settings</em></p>
 
 <div align="center">
-<img src="docs\Network_setting.png" width="300"/>
+<img src="docs\Network_setting.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 12: Network setting</em></p>
 
@@ -476,7 +476,7 @@ Hệ thống Smart Scale IoT hoạt động theo mô hình phân tán với 3 t�
 
 #### 2.2. Quy trình xử lý tín hiệu
 <div align="center">
-<img src="docs\so_do_hx711.png" width="300"/>
+<img src="docs\so_do_hx711.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 13: Sơ đồ xử lý tín hiệu từ HX711</em></p>
 
@@ -586,7 +586,7 @@ model User {
 
 - ERD (Entity Relationship Diagram)
 <div align="center">
-<img src="docs\erd_db.png" width="300"/>
+<img src="docs\erd_db.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 14: ERD database</em></p>
 
@@ -600,7 +600,7 @@ model User {
 
 **Scenario: Người dùng muốn cân một vật và gửi lệnh từ Frontend****
 <div align="center">
-<img src="docs\scale_sq_diagram.png" width="300"/>
+<img src="docs\scale_sq_diagram.png" width="700"/>
 </div>  
 <p align="center"><em>Hình 15: Sequence Diagram</em></p>
 
